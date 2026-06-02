@@ -1,0 +1,89 @@
+/* Laura Lopez */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2357f1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+h2 {
+    font-size: 1.2rem;
+    font-weight: 650;    
+    margin-bottom: 10px; 
+}
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('market.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+section {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #f1e98d;
+  box-shadow: 0 4px 10px #f2e873;
+}
+section:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+section {
+  border-left: 5px solid #faf590;
+}
+
+.box-header {
+  font-size: 1.4rem;
+  background: #0267db;
+  color: rgb(243, 222, 33);
+  padding: 10px 15px;
+  border-radius: 6px 6px 0 0;
+  margin: -20px -20px 15px -20px;
+  font-weight: bold;
+}
+footer {
+  background: rgba(20, 45, 92, 0.85);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #081a77;
+  background: rgba(9, 16, 49, 0.151);
+}
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+     color: rgb(243, 222, 33);
+    margin: 15px 0;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;            
+    margin-bottom: 30px;            
+}
+.profile-pic {
+    width: 120px;   
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;  
+    border: 3px solid #ddd;
+}
